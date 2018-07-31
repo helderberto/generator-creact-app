@@ -48,11 +48,12 @@ module.exports = class extends Generator {
     this.log('💫 Generating ReactJS App...');
     this.log();
 
-    const { project, description } = this.props;
+    const { project, description, github } = this.props;
 
     const templates = {
       project,
       description,
+      github,
       year: new Date().getFullYear()
     };
 
