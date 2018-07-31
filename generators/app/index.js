@@ -60,12 +60,10 @@ module.exports = class extends Generator {
     files.forEach((file) => {
       this.fs.copyTpl(
         this.templatePath(file.template),
-        this.templatePath(file.destination),
+        this.destinationPath(file.destination),
         templates,
       );
     });
-
-    this.fs.extendJSON(this.destinationPath('./package.json'));
   }
 
   install() {
@@ -73,7 +71,7 @@ module.exports = class extends Generator {
     this.log('📦 Installing dependencies...');
     this.log();
 
-    this.npmInstall();
+    this.installDependencies();
   }
 
   end() {
