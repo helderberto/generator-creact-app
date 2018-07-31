@@ -1,5 +1,5 @@
 {
-  "name": "make-react",
+  "name": "make-react-app",
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-eslint": "8.2.6",
