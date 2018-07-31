@@ -7,7 +7,7 @@ const files = require('./files');
 
 module.exports = class extends Generator {
   initializing() {
-    this.log(yosay(`Welcome to the 🔩 ${chalk.red('generator-make-react-app')} generator!`));
+    this.log(yosay(`Welcome to the 🔩 ${chalk.red('generator-creact-app')} generator!`));
     this.log();
     this.log('Made with ❤️ by Helder Burato Berto');
     this.log();

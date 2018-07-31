@@ -1,9 +1,9 @@
 {
-  "name": "generator-make-react-app",
+  "name": "generator-creact-app",
   "version": "1.0.0",
   "description": "A quick and easy to use ReactJS application generator based on webpack and babel.",
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br/)",
-  "homepage": "https://github.com/helderburato/generator-make-react-app#readme",
+  "homepage": "https://github.com/helderburato/generator-creact-app#readme",
   "keywords": [
     "yeoman",
     "yeoman-generator"
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helderburato/generator-make-react-app.git"
+    "url": "git+https://github.com/helderburato/generator-creact-app.git"
   },
   "bugs": {
-    "url": "https://github.com/helderburato/generator-make-react-app/issues"
+    "url": "https://github.com/helderburato/generator-creact-app/issues"
   },
   "dependencies": {
     "chalk": "2.4.1",

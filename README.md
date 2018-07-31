@@ -6,7 +6,7 @@ A quick and easy to use ReactJS application generator based on webpack and babel
 
 * Cloning the repo:
 ```bash
-$ git clone git@github.com:helderburato/generator-make-react-app.git
+$ git clone git@github.com:helderburato/generator-creact-app.git
 ```
 
 * Install packages:
@@ -20,11 +20,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Changelog
 
-This project adheres to [Semantic Versioning](https://semver.org/). Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/helderburato/generator-make-react-app/releases) page.
+This project adheres to [Semantic Versioning](https://semver.org/). Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/helderburato/generator-creact-app/releases) page.
 
 ## Bugs and Sugestions
 
-Report bugs or do suggestions using the [issues](https://github.com/helderburato/generator-make-react-app/issues).
+Report bugs or do suggestions using the [issues](https://github.com/helderburato/generator-creact-app/issues).
 
 ## Author
 
