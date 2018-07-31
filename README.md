@@ -4,14 +4,17 @@ A quick and easy to use ReactJS application generator based on webpack and babel
 
 ## Installation
 
-* Cloning the repo:
+First, install [Yeoman](http://yeoman.io/) and `generator-creact-app` using [npm](https://www.npmjs.com/) (we assume you have pre-installed node.js).
+
 ```bash
-$ git clone git@github.com:helderburato/generator-creact-app.git
+$ npm install -g yo
+$ npm install -g generator-creact-app
 ```
 
-* Install packages:
+Then generate your new ReactJS App:
+
 ```bash
-$ npm install
+$ yo creact-app
 ```
 
 ## Contributing
