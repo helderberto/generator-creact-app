@@ -16,19 +16,19 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'github',
-        message: `What's your GitHub profile?`,
-        default: 'helderburato'
+        message: 'What is your GitHub profile?',
+        default: 'helderburato',
       },
       {
         type: 'input',
         name: 'project',
-        message: `What's your project name?`,
+        message: 'What is your project name?',
         default: 'reactjs-app',
       },
       {
         type: 'input',
         name: 'description',
-        message: `What's your project description?`,
+        message: 'What is your project description?',
         default: 'A simple ReactJS app.',
       },
     ];
@@ -56,7 +56,7 @@ module.exports = class extends Generator {
       this.fs.copyTpl(
         this.templatePath(file.template),
         this.templatePath(file.destination),
-        templates
+        templates,
       );
     });
 
@@ -74,7 +74,6 @@ module.exports = class extends Generator {
   end() {
     this.log();
     this.log('🌟 Congratulations! Your app has been generated.');
-    this.log(`🚀 Let's code a nice things.`);
     this.log();
   }
 }
