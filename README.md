@@ -2,28 +2,16 @@
 
 Yeoman generator for ReactJS app.
 
-## Requirements
-
-* [NodeJS](https://nodejs.org/en/);
-* [Yarn](https://yarnpkg.com/en/).
-
 ## Installation
 
-* Run yarn to install required packages:
+* Cloning the repo:
 ```bash
-$ yarn install
+$ git clone git@github.com:helderburato/generator-react-app.git
 ```
 
-## Usage
-
-* Development:
+* Install packages:
 ```bash
-$ yarn start
-```
-
-* Production
-```bash
-$ yarn run build
+$ npm install
 ```
 
 ## Contributing
@@ -32,11 +20,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Changelog
 
-This project adheres to [Semantic Versioning](https://semver.org/). Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/helderburato/react-webpack/releases) page.
+This project adheres to [Semantic Versioning](https://semver.org/). Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/helderburato/generator-react-app/releases) page.
 
 ## Bugs and Sugestions
 
-Report bugs or do suggestions using the [issues](https://github.com/helderburato/react-webpack/issues).
+Report bugs or do suggestions using the [issues](https://github.com/helderburato/generator-react-app/issues).
 
 ## Author
 
