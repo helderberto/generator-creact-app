@@ -1,5 +1,5 @@
 {
-  "name": "generator-react-app",
+  "name": "generator-make-react",
   "version": "1.0.0",
   "description": "Yeoman generator for ReactJS projects.",
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br/)",
