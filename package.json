@@ -1,9 +1,9 @@
 {
-  "name": "generator-make-react",
-  "version": "1.0.2",
-  "description": "Yeoman generator for ReactJS projects.",
+  "name": "generator-make-react-app",
+  "version": "1.0.0",
+  "description": "A quick and easy to use ReactJS application generator based on webpack and babel.",
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br/)",
-  "homepage": "https://github.com/helderburato/generator-reactjs-app#readme",
+  "homepage": "https://github.com/helderburato/generator-make-react-app#readme",
   "keywords": [
     "yeoman",
     "yeoman-generator"
@@ -17,13 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helderburato/generator-reactjs-app.git"
+    "url": "git+https://github.com/helderburato/generator-make-react-app.git"
   },
   "bugs": {
-    "url": "https://github.com/helderburato/generator-reactjs-app/issues"
+    "url": "https://github.com/helderburato/generator-make-react-app/issues"
   },
   "dependencies": {
-    "yeoman-generator": "3.1.1"
+    "chalk": "2.4.1",
+    "yeoman-generator": "3.1.1",
+    "yosay": "2.0.2"
   },
   "devDependencies": {
     "eslint": "4.19.1",
