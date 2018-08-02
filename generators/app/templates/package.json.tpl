@@ -2,20 +2,16 @@
   "name": "<%= project %>",
   "version": "1.0.0",
   "description": "<%= description %>",
-  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br/)",
-  "homepage": "https://github.com/helderburato/<%= project %>#readme",
+  "author": "<%= author %> <<%= email %>> (https://helderburato.com.br/)",
+  "homepage": "https://github.com/<%= github %>/<%= project %>#readme",
   "main": "src/index.js",
   "files": ["src"],
   "scripts": {
     "build": "webpack --env=prod",
     "start": "webpack-dev-server --env=dev --hot",
-    "lint": "eslint src"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run lint",
-      "pre-push": "yarn run lint"
-    }
+    "lint": "eslint src",
+    "precommit": "yarn run lint",
+    "prepush": "yarn run lint"
   },
   "keywords": [
     "react",
@@ -29,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helderburato/<%= project %>.git"
+    "url": "git+https://github.com/<%= github %>/<%= project %>.git"
   },
   "bugs": {
-    "url": "https://github.com/helderburato/<%= project %>/issues"
+    "url": "https://github.com/<%= github %>/<%= project %>/issues"
   },
   "devDependencies": {
     "babel-core": "6.26.3",
