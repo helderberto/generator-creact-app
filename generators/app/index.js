@@ -7,9 +7,9 @@ const files = require('./files');
 
 module.exports = class extends Generator {
   initializing() {
-    this.log(yosay(`Welcome to the 🔩 ${chalk.red('generator-creact-app')} generator!`));
+    this.log(yosay(`Welcome to the \n🔩 ${chalk.red('generator-creact-app')} generator!`));
     this.log();
-    this.log('Made with ❤️ by Helder Burato Berto');
+    this.log('Made with ❤️  by Helder Burato Berto');
     this.log();
   }
 
@@ -17,6 +17,18 @@ module.exports = class extends Generator {
     const done = this.async();
 
     const prompts = [
+      {
+        type: 'input',
+        name: 'author',
+        message: `Author's name?`,
+        default: 'Helder Burato Berto',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: `Author's e-mail?`,
+        default: 'helder.burato@gmail.com',
+      },
       {
         type: 'input',
         name: 'github',
@@ -27,7 +39,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'project',
         message: `What's your project name?`,
-        default: 'reactjs-app',
+        default: 'react-app',
       },
       {
         type: 'input',
@@ -48,9 +60,17 @@ module.exports = class extends Generator {
     this.log('💫 Generating ReactJS App...');
     this.log();
 
-    const { project, description, github } = this.props;
+    const {
+      author,
+      email,
+      project,
+      description,
+      github,
+    } = this.props;
 
     const templates = {
+      author,
+      email,
       project,
       description,
       github,
@@ -76,7 +96,7 @@ module.exports = class extends Generator {
 
   end() {
     this.log();
-    this.log(yosay('🚀 Congratulations! Your app has been generated.'));
+    this.log(yosay('🚀 Congratulations! \n Your app has been generated.'));
     this.log();
   }
 }
