@@ -1,9 +1,5 @@
 module.exports = [
   {
-    template: 'config/build.config.js.tpl',
-    destination: 'config/build.config.js'
-  },
-  {
     template: 'config/webpack.common.js.tpl',
     destination: 'config/webpack.common.js'
   },
