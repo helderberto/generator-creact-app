@@ -91,7 +91,12 @@ module.exports = class extends Generator {
     this.log('📦 Installing dependencies...');
     this.log();
 
-    this.installDependencies();
+    // Install dependencies using Yarn (https://yarnpkg.com/en/)
+    this.installDependencies({
+      npm: false,
+      bower: false,
+      yarn: true
+    });
   }
 
   end() {
