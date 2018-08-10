@@ -2,6 +2,11 @@
 
 A quick and easy to use ReactJS application generator based on webpack and babel.
 
+[![NPM Version][npm-badge]][npm-url]
+[![Downloads][npm-downloads-badge]][npm-downloads-url]
+[![Travis Status][travis-badge]][travis-url] 
+[![Coveralls Status][coveralls-badge]][coveralls-url]
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io/) and `generator-creact-app` using [npm](https://www.npmjs.com/) (we assume you have pre-installed node.js).
@@ -36,3 +41,12 @@ Report bugs or do suggestions using the [issues](https://github.com/helderburato
 ## License
 
 [MIT License](LICENSE) © Helder Burato Berto
+
+[npm-badge]: https://img.shields.io/npm/v/generator-creact-app.svg
+[npm-url]: https://www.npmjs.com/package/generator-creact-app
+[npm-downloads-badge]: https://img.shields.io/npm/dt/generator-creact-app.svg
+[npm-downloads-url]: https://www.npmjs.com/package/generator-creact-app
+[travis-url]: https://travis-ci.com/helderburato/generator-creact-app
+[travis-badge]: https://travis-ci.com/helderburato/generator-creact-app.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/helderburato/generator-creact-app?branch=master
+[coveralls-badge]: https://coveralls.io/repos/github/helderburato/generator-creact-app/badge.svg?branch=master
