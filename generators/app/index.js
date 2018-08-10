@@ -1,4 +1,3 @@
-'use strict';
 const Generator = require('yeoman-generator');
 const yosay = require('yosay');
 const chalk = require('chalk');
@@ -74,7 +73,7 @@ module.exports = class extends Generator {
       project,
       description,
       github,
-      year: new Date().getFullYear()
+      year: new Date().getFullYear(),
     };
 
     files.forEach((file) => {
@@ -95,7 +94,7 @@ module.exports = class extends Generator {
     this.installDependencies({
       npm: false,
       bower: false,
-      yarn: true
+      yarn: true,
     });
   }
 
@@ -104,4 +103,4 @@ module.exports = class extends Generator {
     this.log(yosay('🚀 Congratulations! \n Your app has been generated.'));
     this.log();
   }
-}
+};

@@ -1,66 +1,66 @@
 module.exports = [
   {
     template: 'config/webpack.common.js.tpl',
-    destination: 'config/webpack.common.js'
+    destination: 'config/webpack.common.js',
   },
   {
     template: 'config/webpack.dev.js.tpl',
-    destination: 'config/webpack.dev.js'
+    destination: 'config/webpack.dev.js',
   },
   {
     template: 'config/webpack.prod.js.tpl',
-    destination: 'config/webpack.prod.js'
+    destination: 'config/webpack.prod.js',
   },
   {
     template: 'src/App.js.tpl',
-    destination: 'src/App.js'
+    destination: 'src/App.js',
   },
   {
     template: 'src/index.html.tpl',
-    destination: 'src/index.html'
+    destination: 'src/index.html',
   },
   {
     template: 'src/index.js.tpl',
-    destination: 'src/index.js'
+    destination: 'src/index.js',
   },
   {
     template: 'editorconfig.tpl',
-    destination: '.editorconfig'
+    destination: '.editorconfig',
   },
   {
     template: 'eslintrc.tpl',
-    destination: '.eslintrc'
+    destination: '.eslintrc',
   },
   {
     template: 'gitattributes.tpl',
-    destination: '.gitattributes'
+    destination: '.gitattributes',
   },
   {
     template: 'gitignore.tpl',
-    destination: '.gitignore'
+    destination: '.gitignore',
   },
   {
     template: 'npmrc.tpl',
-    destination: '.npmrc'
+    destination: '.npmrc',
   },
   {
     template: 'CONTRIBUTING.md.tpl',
-    destination: 'CONTRIBUTING.md'
+    destination: 'CONTRIBUTING.md',
   },
   {
     template: 'LICENSE.tpl',
-    destination: 'LICENSE'
+    destination: 'LICENSE',
   },
   {
     template: 'package.json.tpl',
-    destination: 'package.json'
+    destination: 'package.json',
   },
   {
     template: 'README.md.tpl',
-    destination: 'README.md'
+    destination: 'README.md',
   },
   {
     template: 'webpack.config.js.tpl',
-    destination: 'webpack.config.js'
-  }
+    destination: 'webpack.config.js',
+  },
 ];
