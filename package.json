@@ -1,6 +1,6 @@
 {
   "name": "generator-creact-app",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "A quick and easy to use ReactJS application generator based on webpack and babel.",
   "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br/)",
   "homepage": "https://github.com/helderburato/generator-creact-app#readme",
