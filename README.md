@@ -6,6 +6,7 @@ A quick and easy to use ReactJS application generator based on webpack and babel
 [![Downloads][npm-downloads-badge]][npm-downloads-url]
 [![Travis Status][travis-badge]][travis-url] 
 [![Coveralls Status][coveralls-badge]][coveralls-url]
+[![License][license-badge]][license-url]
 
 ## Installation
 
@@ -50,3 +51,5 @@ Report bugs or do suggestions using the [issues](https://github.com/helderburato
 [travis-badge]: https://travis-ci.com/helderburato/generator-creact-app.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/helderburato/generator-creact-app?branch=master
 [coveralls-badge]: https://coveralls.io/repos/github/helderburato/generator-creact-app/badge.svg?branch=master
+[license-badge]: https://img.shields.io/github/license/helderburato/generator-creact-app.svg
+[license-url]: https://opensource.org/licenses/MIT
