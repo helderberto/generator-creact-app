@@ -37,7 +37,7 @@ Report bugs or do suggestions using the [issues](https://github.com/helderburato
 
 ## Author
 
-[Helder Burato Berto](https://github.com/helderburato) | [@helderburato](https://twitter.com/helderburato)
+[Helder Burato Berto](https://github.com/helderburato)
 
 ## License
 
