@@ -2,8 +2,8 @@
   "name": "generator-creact-app",
   "version": "1.3.4",
   "description": "A quick and easy to use ReactJS application generator based on webpack and babel.",
-  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com.br/)",
-  "homepage": "https://github.com/helderburato/generator-creact-app#readme",
+  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderberto.com/)",
+  "homepage": "https://github.com/hrberto/generator-creact-app#readme",
   "keywords": [
     "yeoman",
     "yeoman-generator",
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helderburato/generator-creact-app.git"
+    "url": "git+https://github.com/hrberto/generator-creact-app.git"
   },
   "bugs": {
-    "url": "https://github.com/helderburato/generator-creact-app/issues"
+    "url": "https://github.com/hrberto/generator-creact-app/issues"
   },
   "dependencies": {
     "chalk": "2.4.1",

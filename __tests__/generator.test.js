@@ -12,7 +12,7 @@ describe('Generator ReactJS App Tests', () => {
       .withPrompts({
         author: 'Helder Burato Berto',
         email: 'helder.burato@gmail.com',
-        github: 'helderburato',
+        github: 'hrberto',
         project: 'react-app',
         description: 'An new ReactJS App.',
       })
