@@ -2,7 +2,7 @@
   "name": "<%= project %>",
   "version": "1.0.0",
   "description": "<%= description %>",
-  "author": "<%= author %> <<%= email %>> (https://helderburato.com.br/)",
+  "author": "<%= author %> <<%= email %>> (https://helderberto.com/)",
   "homepage": "https://github.com/<%= github %>/<%= project %>#readme",
   "main": "src/index.js",
   "files": ["src"],
