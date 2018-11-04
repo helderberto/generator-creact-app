@@ -11,9 +11,9 @@ module.exports = function(config) {
       publicPath: config.publicPath,
     },
     devServer: {
-      contentBase: config.dist,
+      historyApiFallback: true,
       open: true,
-      inline: true,
+      inline: true
     },
     module: {
       rules: [
