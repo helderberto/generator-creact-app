@@ -32,7 +32,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'github',
         message: `What's is your GitHub profile?`,
-        default: 'helderburato',
+        default: 'hrberto',
       },
       {
         type: 'input',
