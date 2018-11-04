@@ -1,22 +1,22 @@
 import React from 'react';
-import { render } from 'react-dom';
-import App from './App';
+import ReactDOM from 'react-dom';
+import App from './app';
 
-const renderApp = (NextApp) => {
-  render(
-    <NextApp />,
+import './stylesheets/main.scss';
+
+const render = (Component) => {
+  ReactDOM.render(
+    <Component />,
     document.querySelector('[data-js="app"]'),
   );
 };
 
-renderApp(App);
+render(App);
 
-/**
- * Enable hot loader if are in DEV mode
-*/
+// Hot reloading
 if (module.hot) {
-  module.hot.accept('./App', () => {
-    const NextApp = require('./App').default;
-    renderApp(NextApp);
+  module.hot.accept('./app', () => {
+    const NextApp = require('./app').default;
+    render(NextApp);
   });
 }
